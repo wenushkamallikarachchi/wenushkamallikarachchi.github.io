@@ -1,166 +1,673 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Wenushka Mallikarachchi - Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="src/img/favicon1.png" />
 
-<head>
-  <title>
-    Wenushka Mallikarachchi - Portfolio 
-  </title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="src/img/favicon1.png" />
+    <!-- css -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap"
+    />
+    <link rel="stylesheet" href="src/app/css/uikit-custom.min.css" />
+    <link rel="stylesheet" href="src/app/css/app.css" />
+  </head>
 
-  <!-- css -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
-  <link rel="stylesheet" href="src/app/css/uikit-custom.min.css" />
-  <link rel="stylesheet" href="src/app/css/app.css" />
-</head>
-
-<body id="body-app" class="yb-dark-skin uk-light">
-  <!-- page loader -->
-  <div id="pageloader" class="yb-pageloader-wrapper">
-    <div class="uk-position-center  uk-text-center">
-      <div data-uk-spinner></div>
+  <body id="body-app" class="yb-dark-skin uk-light">
+    <!-- page loader -->
+    <div id="pageloader" class="yb-pageloader-wrapper">
+      <div class="uk-position-center uk-text-center">
+        <div data-uk-spinner></div>
+      </div>
     </div>
-  </div><!-- end page loader -->
-  <!-- main header -->
-  <header class="yb-main-header" id="main-header">
+    <!-- end page loader -->
+    <!-- main header -->
+    <header class="yb-main-header" id="main-header">
+      <!-- home section -->
+      <div class="yb-full-height" id="home">
+        <section class="yb-profile-desc">
+          <div
+            class="yb-section-point-wrapper"
+            data-uk-parallax="opacity: 1, 0;"
+          >
+            <div class="uk-container">
+              <div class="yb-section-point">
+                <sup>01</sup>
+                <span>welcome</span>
+              </div>
+            </div>
+          </div>
+          <div class="yb-graphics">
+            <div class="yb-graphic-1" data-uk-parallax="blur: 0,30;"></div>
+            <div class="yb-graphic-2" data-uk-parallax="blur: 0,30;"></div>
+          </div>
+          <div
+            class="
+              uk-container uk-text-center
+              yb-profile-desc-wrap
+              uk-position-relative
+            "
+          >
+            <img src="src/img/x1.png" alt="" width="60" />
+            <h1 class="uk-text-bold yb-gradient-text">
+              <span>Wenushka</span><span>Mallikarachchi</span>
+            </h1>
+            <div class="uk-text-bold yb-myjob">
+              I'm a <span id="typed" class="typed"></span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- end home section -->
 
-    <!-- home section -->
-    <div class="yb-full-height " id="home">
+      <!-- main menu -->
+      <nav class="yb-main-menu" id="main-menu">
+        <div class="uk-container" data-uk-navbar>
+          <div class="uk-navbar-left">
+            <a class="yb-logo uk-navbar-item uk-logo" href="index.html"
+              ><span>WM</span></a
+            >
+          </div>
+          <div class="uk-navbar-right uk-hidden@m">
+            <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
+              <span data-uk-navbar-toggle-icon class="yb-icon-menu"></span>
+              <span data-uk-icon="close" class="yb-icon-close"></span>
+            </a>
+          </div>
+          <div class="yb-menu-toggle-wrapper" id="menucollapse">
+            <div class="uk-navbar-center">
+              <ul
+                class="uk-navbar-nav"
+                data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 "
+              >
+                <li>
+                  <a class="yb-inner-link" href="#home"> Home </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#about"> About</a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#resume"> Resume </a>
+                </li>
+                <li>
+                  <a class="yb-inner-link" href="#portfolio"> Portfolio </a>
+                </li>
 
+                <li>
+                  <a class="yb-inner-link" href="#contact"> Contact </a>
+                </li>
+              </ul>
+            </div>
+            <div class="uk-navbar-right">
+              <ul class="uk-navbar-nav yb-social-icons">
+                <li>
+                  <a href="https://github.com/wenushkamallikarachchi">
+                    <span class="uk-icon" data-uk-icon="icon: github"></span>
+                  </a>
+                </li>
 
-
-      <section class="yb-profile-desc">
-        <div class="yb-section-point-wrapper" data-uk-parallax="opacity: 1, 0;">
-          <div class="uk-container">
-            <div class="yb-section-point">
-              <sup>01</sup>
-              <span>welcome</span>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/wenushka-mallikarachchi-242673185/"
+                  >
+                    <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.behance.net/wenushkmallika">
+                    <span class="uk-icon" data-uk-icon="icon: behance"></span>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
-        <div class="yb-graphics">
-          <div class="yb-graphic-1" data-uk-parallax="blur: 0,30;"></div>
-          <div class="yb-graphic-2" data-uk-parallax="blur: 0,30;"></div>
+      </nav>
+      <!-- end main menu -->
+    </header>
+    <!-- end main header -->
+    <!-- main section -->
+    <main class="yb-main-content">
+      <!-- about section -->
+      <section id="about" class="yb-section">
+        <div class="yb-my-profile">
+          <div class="uk-container">
+            <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+              <div>
+                <div
+                  class="
+                    yb-my-profile-img
+                    uk-background-cover
+                    uk-background-norepeat
+                    uk-background-top-center
+                  "
+                  data-src="src/img/profile.png"
+                  data-uk-img
+                  data-uk-lightbox
+                ></div>
+              </div>
+              <div>
+                <div class="yb-my-profile-desc">
+                  <div class="yb-section-point-wrapper">
+                    <div class="yb-section-point right">
+                      <sup>02</sup>
+                      <span>About</span>
+                    </div>
+                  </div>
+                  <div class="yb-my-profile-desc-top">
+                    <h2 class="yb-section-title">Hello There!</h2>
+                    <strong>About me</strong>
+                    <p>
+                      A dedicated, fast learning individual who is eager to seek
+                      opportunities that will maximize the capabilities as a
+                      Front End Developer and to utilize the knowledge and
+                      skills that I have gained to contribute towards the
+                      organization.
+                    </p>
+                  </div>
+                  <div class="yb-my-profile-desc-bottom yb-bg-soft">
+                    <ul class="yb-my-profile-desc-info uk-list">
+                      <li>
+                        <span>Full Name</span> : Wenushka Kaveesha
+                        Mallikarachchi
+                      </li>
+                      <li><span>Birthdate</span> : 1998/10/10</li>
+
+                      <li><span>Phone</span> : +94771363694</li>
+                      <li><span>Email</span> : wenushka18273@gmail.com</li>
+
+                      <li>
+                        <span>Addresses</span> : 493/3, Siyambalape rd,
+                        Heiyanthuduwa. Sri Lanka
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="uk-container uk-text-center yb-profile-desc-wrap uk-position-relative">
-          <img src="src/img/x1.png" alt="" width="60" />
-          <h1 class="uk-text-bold yb-gradient-text"><span>Wenushka</span><span>Mallikarachchi</span></h1>
-          <div class="uk-text-bold yb-myjob">
-            I'm a <span id="typed" class="typed"></span>
+        <div class="yb-border-top yb-border-bottom">
+          <div class="uk-container">
+            <div
+              data-uk-grid
+              class="
+                yb-box-services
+                uk-child-width-1-4@l
+                uk-child-width-1-2
+                uk-text-center
+                uk-grid-divider
+              "
+            >
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: laptop; ratio: 1.5"
+                  ></span>
+                  <h5>Web Developer</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: phone; ratio: 1.5"
+                  ></span>
+                  <h5>Mobile Developer</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: pencil; ratio: 1.5"
+                  ></span>
+                  <h5>UI / UX Designer</h5>
+                </div>
+              </div>
+              <div>
+                <div class="yb-box-service">
+                  <span
+                    class="uk-icon"
+                    data-uk-icon="icon: code; ratio: 1.5"
+                  ></span>
+                  <h5>Front End Developer</h5>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-    </div><!-- end home section -->
-
-    <!-- main menu -->
-    <nav class="yb-main-menu " id="main-menu">
-      <div class="uk-container" data-uk-navbar>
-        <div class="uk-navbar-left">
-          <a class="yb-logo uk-navbar-item uk-logo" href="index.html"><span>WM</span></a>
-        </div>
-        <div class="uk-navbar-right uk-hidden@m">
-          <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
-            <span data-uk-navbar-toggle-icon class="yb-icon-menu"></span>
-            <span data-uk-icon="close" class="yb-icon-close"></span>
-          </a>
-        </div>
-        <div class="yb-menu-toggle-wrapper" id="menucollapse">
-          <div class="uk-navbar-center">
-            <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 ">
-              <li>
-                <a class="yb-inner-link" href="#home"> Home </a>
-              </li>
-              <li>
-                <a class="yb-inner-link" href="#about"> About</a>
-              </li>
-              <li>
-                <a class="yb-inner-link" href="#resume"> Resume </a>
-              </li>
-              <li>
-                <a class="yb-inner-link" href="#portfolio"> Portfolio </a>
-              </li>
-            
-              <li>
-                <a class="yb-inner-link" href="#contact"> Contact </a>
-              </li>
-            </ul>
-          </div>
-          <div class="uk-navbar-right">
-            <ul class="uk-navbar-nav yb-social-icons">
-              <li>
-                <a href="https://github.com/wenushkamallikarachchi">
-                  <span class="uk-icon " data-uk-icon="icon: github"></span>
-                </a>
-              </li>
-              
-              <li>
-                <a href="https://www.linkedin.com/in/wenushka-mallikarachchi-242673185/">
-                  <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.behance.net/wenushkmallika">
-                  <span class="uk-icon" data-uk-icon="icon: behance"></span>
-                </a>
-              </li>
-            </ul>
+      <!-- end about section -->
+      <!-- resume section -->
+      <section class="yb-section" id="resume">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>03</sup>
+              <span>Resume</span>
+            </div>
           </div>
         </div>
-      </div>
-    </nav><!-- end main menu -->
-  </header><!-- end main header -->
-  <!-- main section -->
-  <main class="yb-main-content">
-    <!-- about section -->
-    <section id="about" class="yb-section">
-      <div class="yb-my-profile">
         <div class="uk-container">
-          <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
-            <div>
-              <div class="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="src/img/profile.png" data-uk-img data-uk-lightbox>
-               
+          <div data-uk-grid class="uk-grid-divider">
+            <div
+              class="
+                uk-width-1-4@s uk-visible@s uk-margin-large-bottom
+                yb-section-padding-top
+              "
+              id="resume-nav-wrapper"
+            >
+              <div
+                data-uk-sticky="bottom: #resume-nav-wrapper; offset: 100; media: 650"
+              >
+                <ul
+                  class="yb-nav-left uk-tab-left uk-tab"
+                  data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120"
+                >
+                  <li class="uk-active">
+                    <a
+                      href="#education"
+                      class="yb-inner-link"
+                      data-offset="120"
+                    >
+                      <span data-uk-icon="minus"></span>
+                      Education
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#experience"
+                      class="yb-inner-link"
+                      data-offset="120"
+                    >
+                      <span data-uk-icon="minus"></span>
+                      Experience
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#skills" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Skills
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#awwwards" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      Awards
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div>
-              <div class="yb-my-profile-desc">
-                <div class="yb-section-point-wrapper">
-                  <div class="yb-section-point right">
-                    <sup>02</sup>
-                    <span>About</span>
+            <div class="uk-width-expand@s yb-section-padding-top">
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="education">
+                  <span>Education</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2004 - 2017</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">D.S Senanayake College</h4>
+
+                        <div class="uk-text-small">
+                          <p>
+                            Passed GCE Ordinary Level - 2014<br />
+                            GCE Advanced Level (Mathematics) - Credit pass for
+                            Information Technology - 2017
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2017 - 2021</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Bachelor of Science in Computer Science
+                        </h4>
+                        <strong>Informatics Institute of Technology</strong>
+                        <div class="uk-text-small">
+                          <p>
+                            Currently pursuing a degree program in BSc (Hons)
+                            Computer Science at Informatics Institute of
+                            Technology affiliated with University of Westminster
+                            UK
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="experience">
+                  <span>Experience</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
+                    <li>
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2019 - </span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Trainee Software Engineer
+                        </h4>
+                        <strong
+                          >SCM-Studio, subsidiary of Eagle Logistics (Pvt)
+                          Ltd</strong
+                        >
+                        <div class="uk-text-small">
+                          <p>
+                            • Was a member of the development team of the
+                            SCM-Studio<br />
+                            • Experienced in full stack application development
+                            (React and React Native)<br />
+                            • Contributor of BRIDGE: Sri lanka's first #cloud
+                            based platform to integrate with Global
+                            shippinglines, airlines, courier services for real
+                            time tracking with automated alerts.
+                          </p>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="skills">
+                  <span>Skills</span>
+                </h2>
+                <div class="yb-margin-top-1 yb-margin-bottom-2">
+                  <div
+                    class="
+                      uk-grid-collapse
+                      uk-child-width-1-2
+                      uk-child-width-1-3@s
+                      uk-child-width-1-4@m
+                      uk-text-center
+                    "
+                    data-uk-grid
+                  >
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.8">
+                          <strong>80<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">CSS</h5>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.8">
+                          <strong>80<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">HTML</h5>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.7">
+                          <strong>70<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Flutter</h5>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.7">
+                          <strong>70<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">React Native</h5>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.6">
+                          <strong>60<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">React</h5>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.6">
+                          <strong>60<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Ionic3</h5>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.8">
+                          <strong>80<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Git</h5>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.7">
+                          <strong>70<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Java</h5>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.7">
+                          <strong>70<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Mysql</h5>
+                      </div>
+                    </div>
+                    <div class="yb-bg-soft">
+                      <div class="yb-box-circle">
+                        <div class="circle-progress" data-value="0.7">
+                          <strong>70<i>%</i></strong>
+                        </div>
+                        <h5 class="yb-box-circle-title">Android</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-uk-grid class="uk-child-width-1-2">
+                    <div>
+                      <h4 class="yb-section-title">Soft Skills</h4>
+                      <ul class="uk-list uk-list-large uk-list-divider">
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Willing to take new challenges
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >100%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Creativity
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >80%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="90"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Time Management
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >80%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="80"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Team Work
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >90%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="90"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 class="yb-section-title">Language</h4>
+                      <ul class="uk-list uk-list-large uk-list-divider">
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              Sinhala
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >100%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="100"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="yb-resume-skill-item">
+                            <h5>
+                              English
+                              <small
+                                class="uk-float-right uk-text-bold uk-visible@s"
+                                >80%</small
+                              >
+                            </h5>
+                            <progress
+                              class="uk-progress"
+                              value="80"
+                              max="100"
+                            ></progress>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div class="yb-my-profile-desc-top">
-                  <h2 class="yb-section-title">Hello There!</h2>
-                  <strong>About me</strong>
-                  <p>
-                    A dedicated, fast learning individual who is 
-                    eager to seek opportunities that will maximize 
-                    the capabilities as a Front End Developer and to 
-                    utilize the knowledge and skills that I have 
-                    gained to contribute towards the organization.
-                    
-                  </p>
-                </div>
-                <div class="yb-my-profile-desc-bottom yb-bg-soft">
-                  <ul class="yb-my-profile-desc-info uk-list">
+              </div>
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="awwwards">
+                  <span>Awards</span>
+                </h2>
+                <div class="yb-resume-list">
+                  <ul class="uk-list uk-list-large uk-list-divider">
                     <li>
-                      <span>Full Name</span> : Wenushka Kaveesha Mallikarachchi
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2018 - 2019</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">Stage Craft</h4>
+                        <div class="uk-text-small">
+                          <p>Best overall performance in Stage Craft 2018</p>
+                        </div>
+                      </div>
                     </li>
                     <li>
-                      <span>Birthdate</span> : 1998/10/10
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2018 - 2019</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          CodeSprint 4.0 hackathon
+                        </h4>
+
+                        <div class="uk-text-small">
+                          <p>
+                            • It is a travel app where the user can get a mind
+                            map (Summary) on a place where he would like to
+                            visit. Also, from this app, the user can plan the
+                            trip along with his friends.
+                            <br />
+                            • Selected to top 5 teams in CodeSprint 4.0
+                            hackathon with GlobEx project
+                          </p>
+                        </div>
+                      </div>
                     </li>
-                   
                     <li>
-                      <span>Phone</span> : +94771363694
-                    </li>
-                    <li>
-                      <span>Email</span> : wenushka18273@gmail.com
-                    </li>
-                   
-                    <li>
-                      <span>Addresses</span> : 493/3, Siyambalape rd, Heiyanthuduwa. Sri Lanka
+                      <div class="yb-resume-item">
+                        <div class="yb-resume-item-date">
+                          <div class="yb-resume-item-date-icon">
+                            <span data-uk-icon="calendar"></span>
+                          </div>
+                          <div class="yb-resume-item-date-text">
+                            <span>2019</span>
+                          </div>
+                        </div>
+                        <h4 class="yb-section-title">
+                          Award of Participation at Cutting Edge, organized by
+                          IIT
+                        </h4>
+                      </div>
                     </li>
                   </ul>
                 </div>
@@ -168,682 +675,553 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="yb-border-top yb-border-bottom ">
-        <div class="uk-container">
-          <div data-uk-grid class="yb-box-services uk-child-width-1-4@l uk-child-width-1-2 uk-text-center uk-grid-divider">
-            <div>
-              <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: laptop; ratio: 1.5"></span>
-                <h5>Web Developer</h5>
+        <div
+          class="
+            yb-section yb-section-padding
+            uk-background-cover uk-background-fixed
+          "
+          data-uk-parallax="bgy: -200"
+          data-src="src/img/bg/bg2.jpg"
+          data-uk-img
+        >
+          <div class="yb-overlay-primary uk-position-cover"></div>
+          <div class="uk-container uk-text-center uk-position-relative">
+            <div data-uk-grid class="uk-grid-small uk-flex-center">
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1htYdtLT7n9Pq1KuW2AJOVI4YzJjvG3Lo/view?usp=sharing"
+                  class="yb-btn uk-button uk-button-primary uk-button-large"
+                  >Download CV</a
+                >
               </div>
-            </div>
-            <div>
-              <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: phone; ratio: 1.5"></span>
-                <h5>Mobile Developer</h5>
-              </div>
-            </div>
-            <div>
-              <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: pencil; ratio: 1.5"></span>
-                <h5>UI / UX Designer</h5>
-              </div>
-            </div>
-            <div>
-              <div class="yb-box-service">
-                <span class="uk-icon" data-uk-icon="icon: code; ratio: 1.5"></span>
-                <h5>Front   End Developer</h5>
+              <!-- TODO -->
+              <div>
+                <a
+                  href="#"
+                  class="
+                    yb-inner-link yb-btn
+                    uk-button uk-button-danger uk-button-large
+                  "
+                  >Download Portfolio</a
+                >
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section><!-- end about section -->
-    <!-- resume section -->
-    <section class="yb-section " id="resume">
-      <div class="yb-section-point-wrapper">
-        <div class="uk-container">
-          <div class="yb-section-point">
-            <sup>03</sup>
-            <span>Resume</span>
-          </div>
-        </div>
-      </div>
-      <div class="uk-container">
-        <div data-uk-grid class="uk-grid-divider">
-          <div class="uk-width-1-4@s uk-visible@s uk-margin-large-bottom yb-section-padding-top " id="resume-nav-wrapper">
-            <div data-uk-sticky="bottom: #resume-nav-wrapper; offset: 100; media: 650">
-              <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
-                <li class="uk-active">
-                  <a href="#education" class="yb-inner-link" data-offset="120">
-                    <span data-uk-icon="minus"></span>
-                    Education
-                  </a>
-                </li>
-                <li>
-                  <a href="#experience" class="yb-inner-link" data-offset="120">
-                    <span data-uk-icon="minus"></span>
-                    Experience
-                  </a>
-                </li>
-                <li>
-                  <a href="#skills" class="yb-inner-link" data-offset="120">
-                    <span data-uk-icon="minus"></span>
-                    Skills
-                  </a>
-                </li>
-                <li>
-                  <a href="#awwwards" class="yb-inner-link" data-offset="120">
-                    <span data-uk-icon="minus"></span>
-                    Awards
-                  </a>
-                </li>
-              </ul>
+      </section>
+      <!-- end resume section -->
+      <!-- portfolio section -->
+      <section class="yb-section uk-overflow-hidden" id="portfolio">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>04</sup>
+              <span>Portfolio</span>
             </div>
           </div>
-          <div class="uk-width-expand@s yb-section-padding-top">
-            <div>
-              <h2 class="yb-section-title uk-heading-line" id="education">
-                <span>Education</span>
-              </h2>
-              <div class="yb-resume-list">
-                <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2004 - 2017</span></div>
-                      </div>
-                      <h4 class="yb-section-title">D.S Senanayake College</h4>
-                    
-                      <div class="uk-text-small">
-                        <p>Passed GCE Ordinary Level - 2014<br>
-                        GCE Advanced Level (Mathematics) - Credit pass for Information Technology - 2017</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2017 - 2021</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Bachelor of Science in Computer Science</h4>
-                      <strong>Informatics Institute of Technology</strong>
-                      <div class="uk-text-small">
-                        <p>Currently pursuing a degree program in BSc (Hons) Computer Science 
-                          at Informatics Institute of Technology affiliated with University of 
-                          Westminster UK</p>
-                      </div>
-                    </div>
+        </div>
+        <div class="uk-container">
+          <div data-uk-grid class="uk-grid-divider">
+            <div
+              class="
+                uk-width-1-4@s uk-visible@s uk-margin-large-bottom
+                yb-section-padding-top
+              "
+              id="portfolio-nav-wrapper"
+            >
+              <div
+                data-uk-sticky="bottom: #portfolio-nav-wrapper; offset: 100; media: 650"
+              >
+                <ul
+                  class="yb-nav-left uk-tab-left uk-tab"
+                  data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120"
+                >
+                  <li class="uk-active">
+                    <a href="#myworks" class="yb-inner-link" data-offset="120">
+                      <span data-uk-icon="minus"></span>
+                      My Works
+                    </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div>
-              <h2 class="yb-section-title  uk-heading-line " id="experience">
-                <span>Experience</span>
-              </h2>
-              <div class="yb-resume-list">
-                <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2019 - </span></div>
-                      </div>
-                      <h4 class="yb-section-title">Trainee Software Engineer</h4>
-                      <strong>SCM-Studio,
-                        subsidiary of Eagle Logistics (Pvt) Ltd</strong>
-                      <div class="uk-text-small">
-                        <p>• Was a member of the development team of the SCM-Studio<br>
-                          • Experienced in full stack application development (React and
-                          React Native)<br>
-                          • Contributor of BRIDGE: Sri lanka's first #cloud based platform to integrate with Global shippinglines, airlines, courier services for real time tracking with automated alerts.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <h2 class="yb-section-title  uk-heading-line " id="skills">
-                <span>Skills</span>
-              </h2>
-              <div class="yb-margin-top-1 yb-margin-bottom-2">
-                <div class="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.8">
-                        <strong>80<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">CSS</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.8">
-                        <strong>80<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">HTML</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Flutter</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">React Native</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.6">
-                        <strong>60<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">React</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.6">
-                        <strong>60<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Ionic3</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.8">
-                        <strong>80<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Git</h5>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Java</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Mysql</h5>
-                    </div>
-                  </div>
-                  <div class="yb-bg-soft">
-                    <div class="yb-box-circle">
-                      <div class="circle-progress " data-value="0.7">
-                        <strong>70<i>%</i></strong>
-                      </div>
-                      <h5 class="yb-box-circle-title">Android</h5>
-                    </div>
-                  </div>
-                </div>
-                <div data-uk-grid class="uk-child-width-1-2">
-                  <div>
-                    <h4 class="yb-section-title">Soft Skills</h4>
-                    <ul class="uk-list uk-list-large  uk-list-divider">
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Willing to take new challenges 
- <small class="uk-float-right uk-text-bold uk-visible@s">100%</small>
-                          </h5>
-                          <progress class="uk-progress" value="100" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Creativity <small class="uk-float-right uk-text-bold uk-visible@s">80%</small>
-                          </h5>
-                          <progress class="uk-progress" value="90" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Time Management <small class="uk-float-right uk-text-bold uk-visible@s">80%</small>
-                          </h5>
-                          <progress class="uk-progress" value="80" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Team Work <small class="uk-float-right uk-text-bold uk-visible@s">90%</small>
-                          </h5>
-                          <progress class="uk-progress" value="90" max="100"></progress>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 class="yb-section-title">Language </h4>
-                    <ul class="uk-list uk-list-large uk-list-divider">
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            Sinhala <small class="uk-float-right uk-text-bold uk-visible@s">100%</small>
-                          </h5>
-                          <progress class="uk-progress" value="100" max="100"></progress>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="yb-resume-skill-item">
-                          <h5>
-                            English <small class="uk-float-right uk-text-bold uk-visible@s">80%</small>
-                          </h5>
-                          <progress class="uk-progress" value="80" max="100"></progress>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <h2 class="yb-section-title  uk-heading-line " id="awwwards">
-                <span>Awards</span>
-              </h2>
-              <div class="yb-resume-list">
-                <ul class="uk-list uk-list-large uk-list-divider">
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2018 - 2019</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Stage Craft</h4>
-                      <div class="uk-text-small">
-                        <p>Best overall performance in Stage Craft 2018</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2018 - 2019</span></div>
-                      </div>
-                      <h4 class="yb-section-title">CodeSprint 4.0 hackathon</h4>
-                      
-                      <div class="uk-text-small">
-                        <p>• It is a travel app where the user can get a mind map 
-                          (Summary) on a place where he would like to visit. Also, from 
-                          this app, the user can plan the trip along with his friends.
-                        <br>
-                        • Selected to top 5 teams in CodeSprint 4.0 hackathon with GlobEx project
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="yb-resume-item">
-                      <div class="yb-resume-item-date">
-                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
-                        <div class="yb-resume-item-date-text"><span>2019</span></div>
-                      </div>
-                      <h4 class="yb-section-title">Award of Participation at Cutting Edge, organized by IIT</h4>
-                      
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="yb-section yb-section-padding uk-background-cover uk-background-fixed " data-uk-parallax="bgy: -200" data-src="src/img/bg/bg2.jpg" data-uk-img>
-        <div class="yb-overlay-primary uk-position-cover"></div>
-        <div class="uk-container uk-text-center uk-position-relative">
-          <div data-uk-grid class="uk-grid-small  uk-flex-center">
-            <div>
-              <a href="https://drive.google.com/file/d/1htYdtLT7n9Pq1KuW2AJOVI4YzJjvG3Lo/view?usp=sharing" class=" yb-btn uk-button uk-button-primary uk-button-large">Download CV</a>
-            </div>
-            <!-- TODO -->
-            <div>
-              <a href="#" class="yb-inner-link yb-btn uk-button uk-button-danger  uk-button-large">Download Portfolio</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><!-- end resume section -->
-    <!-- portfolio section -->
-    <section class="yb-section  uk-overflow-hidden" id="portfolio">
-      <div class="yb-section-point-wrapper">
-        <div class="uk-container">
-          <div class="yb-section-point">
-            <sup>04</sup>
-            <span>Portfolio</span>
-          </div>
-        </div>
-      </div>
-      <div class="uk-container ">
-        <div data-uk-grid class="uk-grid-divider">
-          <div class="uk-width-1-4@s uk-visible@s uk-margin-large-bottom yb-section-padding-top" id="portfolio-nav-wrapper">
-            <div data-uk-sticky="bottom: #portfolio-nav-wrapper; offset: 100; media: 650">
-              <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
-                <li class="uk-active">
-                  <a href="#myworks" class="yb-inner-link" data-offset="120">
-                    <span data-uk-icon="minus"></span>
-                    My Works
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="uk-width-expand@s yb-section-padding-top">
-            <div>
-              <h2 class="yb-section-title uk-heading-line " id="myworks"><span>My Works</span></h2>
-              <div data-uk-filter="target: .js-filter" class="yb-margin-top-1 yb-margin-bottom-1">
-                <ul class="yb-nav-filter uk-subnav uk-subnav-pill ">
-                  <li><a data-uk-filter-control>All</a></li>
-                  <!-- <li><a data-uk-filter-control=".data-web">Web</a></li>
+            <div class="uk-width-expand@s yb-section-padding-top">
+              <div>
+                <h2 class="yb-section-title uk-heading-line" id="myworks">
+                  <span>My Works</span>
+                </h2>
+                <div
+                  data-uk-filter="target: .js-filter"
+                  class="yb-margin-top-1 yb-margin-bottom-1"
+                >
+                  <ul class="yb-nav-filter uk-subnav uk-subnav-pill">
+                    <li><a data-uk-filter-control>All</a></li>
+                    <!-- <li><a data-uk-filter-control=".data-web">Web</a></li>
                   <li><a data-uk-filter-control=".data-brand">Brand</a></li>
                   <li><a data-uk-filter-control=".data-design">Design</a></li> -->
-                </ul>
-                <ul class="js-filter uk-child-width-1-2  uk-grid-small  " data-uk-grid data-uk-lightbox="animation: fade;  toggle: .yb-lightbox">
-                  <li class="data-web">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Allboard.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                  </ul>
+                  <ul
+                    class="js-filter uk-child-width-1-2 uk-grid-small"
+                    data-uk-grid
+                    data-uk-lightbox="animation: fade;  toggle: .yb-lightbox"
+                  >
+                    <li class="data-web">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              src="src/img/empty.png"
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/Allboard.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                        
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Colorless Concept</h5>
+                            <span>Mobile Application</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Colorless Concept</h5>
-                          <span>Mobile Application</span>
+                    </li>
+                    <li class="data-brand data-web">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/Splashscreen.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-brand data-web">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/Splashscreen.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Brand, Web</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Brand, Web</span>
+                    </li>
+                    <li class="data-web">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/homescreen.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-web">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img width="383" height="574" data-src="src/img/work/homescreen.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                        
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Web</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Web</span>
+                    </li>
+                    <li class="data-web data-design">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/logistic.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-web data-design">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/logistic.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-              
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Logistics</h5>
+                            <span>Web, Design</span>
+                          </div>
+                        </a>
                       </div>
-                      <a  class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Logistics</h5>
-                          <span>Web, Design</span>
+                    </li>
+                    <li class="data-design">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/pscreen.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-design">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/pscreen.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Design</span>
+                          </div>
+                        </a>
                       </div>
-                      <a  class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Design</span>
+                    </li>
+                    <li class="data-design">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/tattoo.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-design">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/tattoo.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                       
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Design</span>
+                          </div>
+                        </a>
                       </div>
-                      <a  class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Design</span>
+                    </li>
+                    <li class="data-brand">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/landing.png"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-brand">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/landing.png" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                       
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Brand</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Brand</span>
+                    </li>
+                    <li class="data-brand">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/globex.jpeg"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-brand">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/globex.jpeg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                       
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Brand</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Brand</span>
+                    </li>
+                    <li class="data-brand">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/globex2.jpeg"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-brand">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/globex2.jpeg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                       
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Brand</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Brand</span>
+                    </li>
+                    <li class="data-brand">
+                      <div class="yb-work-item uk-transition-toggle">
+                        <div class="yb-work-item-img-wrap">
+                          <div class="yb-work-item-img">
+                            <img
+                              width="383"
+                              height="574"
+                              data-src="src/img/work/globex3.jpeg"
+                              class="
+                                uk-transition-scale-up uk-transition-opaque
+                              "
+                              alt=""
+                              data-uk-img
+                            />
+                          </div>
                         </div>
-                      </a>
-                    </div>
-                  </li>
-                  <li class="data-brand">
-                    <div class="yb-work-item uk-transition-toggle">
-                      <div class="yb-work-item-img-wrap">
-                        <div class="yb-work-item-img">
-                          <img  width="383" height="574" data-src="src/img/work/globex3.jpeg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
-                        </div>
-                       
+                        <a class="show-portfolio">
+                          <div class="yb-work-item-title">
+                            <h5>Project Title</h5>
+                            <span>Brand</span>
+                          </div>
+                        </a>
                       </div>
-                      <a class="show-portfolio">
-                        <div class="yb-work-item-title">
-                          <h5>Project Title</h5>
-                          <span>Brand</span>
-                        </div>
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-                <div id="show-portofolio-details" class="uk-modal-full" data-uk-modal>
-                  <div class="uk-modal-dialog ">
-                    <button class="uk-modal-close-full uk-close-large" type="button" data-uk-close></button>
-                    <div id="portofolio-details" data-uk-height-viewport class="uk-animation-toggle uk-overflow-hidden">
+                    </li>
+                  </ul>
+                  <div
+                    id="show-portofolio-details"
+                    class="uk-modal-full"
+                    data-uk-modal
+                  >
+                    <div class="uk-modal-dialog">
+                      <button
+                        class="uk-modal-close-full uk-close-large"
+                        type="button"
+                        data-uk-close
+                      ></button>
+                      <div
+                        id="portofolio-details"
+                        data-uk-height-viewport
+                        class="uk-animation-toggle uk-overflow-hidden"
+                      ></div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-      
-      
           </div>
         </div>
-      </div>
-    </section><!-- end portfolio section -->
+      </section>
+      <!-- end portfolio section -->
 
-    <!-- contact section -->
-    <section class="yb-section yb-border-top" id="contact">
-      <div class="yb-section-point-wrapper">
+      <!-- contact section -->
+      <section class="yb-section yb-border-top" id="contact">
+        <div class="yb-section-point-wrapper">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>05</sup>
+              <span>Contact</span>
+            </div>
+          </div>
+        </div>
         <div class="uk-container">
-          <div class="yb-section-point ">
-            <sup>05</sup>
-            <span>Contact</span>
-          </div>
-        </div>
-      </div>
-      <div class="uk-container">
-        <div data-uk-grid class=" uk-grid-divider">
-          <div class="yb-section-padding yb-contact-left uk-width-3-4@m">
-            <div>
-              <h2 class="yb-section-title uk-heading-line ">
-                <span>Get in touch</span>
-              </h2>
-              <p class="uk-text-bold">Feel free to contact me</p>
-              <div id="contact-form-alert"></div>
-              <form id="contact-form" class="uk-form-stacked">
-                <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
-                  <div>
-                    <div class="uk-margin">
-                      <label for="f_email" class="uk-form-label">Email*</label>
-                      <div class="uk-form-controls uk-inline uk-width-1-1">
-                        <span class="uk-form-icon" data-uk-icon="icon: user"></span>
-                        <input class="yb-input uk-input  uk-border-rounded" type="email" name="f_email" id="f_email" placeholder=" Your email here . . ." />
+          <div data-uk-grid class="uk-grid-divider">
+            <div class="yb-section-padding yb-contact-left uk-width-3-4@m">
+              <div>
+                <h2 class="yb-section-title uk-heading-line">
+                  <span>Get in touch</span>
+                </h2>
+                <p class="uk-text-bold">Feel free to contact me</p>
+                <div id="contact-form-alert"></div>
+                <form id="contact-form" class="uk-form-stacked">
+                  <div class="uk-grid uk-grid-small uk-child-width-1-2@s">
+                    <div>
+                      <div class="uk-margin">
+                        <label for="f_email" class="uk-form-label"
+                          >Email*</label
+                        >
+                        <div class="uk-form-controls uk-inline uk-width-1-1">
+                          <span
+                            class="uk-form-icon"
+                            data-uk-icon="icon: user"
+                          ></span>
+                          <input
+                            class="yb-input uk-input uk-border-rounded"
+                            type="email"
+                            name="f_email"
+                            id="f_email"
+                            placeholder=" Your email here . . ."
+                          />
+                        </div>
+                        <small
+                          class="uk-text-danger err-msg"
+                          id="f_email_error"
+                        ></small>
                       </div>
-                      <small class="uk-text-danger err-msg" id="f_email_error"></small>
+                    </div>
+                    <div>
+                      <div class="uk-margin">
+                        <label for="f_phone" class="uk-form-label"
+                          >Phone*</label
+                        >
+                        <div class="uk-form-controls uk-inline uk-width-1-1">
+                          <span
+                            class="uk-form-icon"
+                            data-uk-icon="icon: phone"
+                          ></span>
+                          <input
+                            class="yb-input uk-input uk-border-rounded"
+                            type="text"
+                            name="f_phone"
+                            id="f_phone"
+                            placeholder=" Your phone here . . ."
+                          />
+                        </div>
+                        <small
+                          class="uk-text-danger err-msg"
+                          id="f_phone_error"
+                        ></small>
+                      </div>
                     </div>
                   </div>
-                  <div>
-                    <div class="uk-margin">
-                      <label for="f_phone" class="uk-form-label">Phone*</label>
-                      <div class="uk-form-controls uk-inline uk-width-1-1">
-                        <span class="uk-form-icon" data-uk-icon="icon: phone"></span>
-                        <input class="yb-input uk-input uk-border-rounded" type="text" name="f_phone" id="f_phone" placeholder=" Your phone here . . ." />
-                      </div>
-                      <small class="uk-text-danger err-msg" id="f_phone_error"></small>
+
+                  <div class="uk-margin">
+                    <label for="f_message" class="uk-form-label"
+                      >Message*</label
+                    >
+                    <div class="uk-form-controls">
+                      <textarea
+                        class="yb-input uk-textarea uk-border-rounded"
+                        rows="7"
+                        name="f_message"
+                        id="f_message"
+                        placeholder="Your message here . . ."
+                      ></textarea>
                     </div>
+                    <small
+                      class="uk-text-danger err-msg"
+                      id="f_message_error"
+                    ></small>
                   </div>
-                </div>
-          
-                <div class="uk-margin ">
-                  <label for="f_message" class="uk-form-label">Message*</label>
-                  <div class="uk-form-controls">
-                    <textarea class="yb-input  uk-textarea uk-border-rounded" rows="7" name="f_message" id="f_message" placeholder="Your message here . . ."></textarea>
+                  <div class="uk-margin-top">
+                    <button
+                      class="uk-button uk-button-primary uk-button-large yb-btn"
+                      type="submit"
+                      id="btn-contact-form"
+                      data-textreset="Send Now"
+                    >
+                      <span class="uk-margin-small-right btn-text-wrap"
+                        >Send Now</span
+                      >
+                      <span data-uk-icon="arrow-right" class="uk-icon"> </span>
+                    </button>
                   </div>
-                  <small class="uk-text-danger err-msg" id="f_message_error"></small>
-                </div>
-                <div class="uk-margin-top">
-                  <button class="uk-button uk-button-primary uk-button-large  yb-btn" type="submit" id="btn-contact-form" data-textreset="Send Now">
-                    <span class="uk-margin-small-right btn-text-wrap">Send Now</span>
-                    <span data-uk-icon="arrow-right" class="uk-icon"> </span>
-                  </button>
-                </div>
-              </form>
+                </form>
+              </div>
             </div>
-          </div>
-          <div class=" uk-width-1-4@m yb-section-padding yb-contact-right">
-            <p class="uk-margin-medium-bottom uk-visible@m">
-              <img data-src="src/img/profile.png" width="500" height="500" data-uk-img alt="" class="uk-border-circle" />
-            </p>
-            <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
-              <li class="uk-flex uk-flex-middle">
-                <span data-uk-icon="mail" class="uk-flex-none uk-text-primary "></span>
-                <span>wenushka18273@gmail.com</span>
-              </li>
-              <li class="uk-flex uk-flex-middle">
-                <span data-uk-icon="phone" class="uk-flex-none uk-text-primary"></span>
-                <span> +94771363694</span>
-              </li>
-             
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- end contact section -->
-  </main> <!-- end main section -->
-  <!-- main footer -->
-  <footer class="yb-main-footer-wrapper">
-    <div class="waveHorizontals">
-      <div id="waveHorizontal1" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave1.svg"></div>
-      <div id="waveHorizontal2" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave2.svg"></div>
-      <div id="waveHorizontal3" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave3.svg"></div>
-    </div>
-    <a href="#body-app" class="uk-visible@s yb-totop yb-inner-link" data-uk-totop></a>
-    <div class="yb-main-footer">
-      <div class="uk-container">
-        <div data-uk-grid class="uk-child-width-1-2@s">
-          <div class="uk-margin-remove uk-text-left@s">
-            &copy; 2021 Portfolio, by Wenushka Mallikarachchi.
-          </div>
-          <div class="uk-margin-remove uk-text-right@s">
-            <div class="yb-footer-social">
-              <a href="https://www.facebook.com/wenushka.mallikarachchi.9/">Facebook</a>
-              <a href="https://www.instagram.com/wenushka_donz/">Instagram</a>
+            <div class="uk-width-1-4@m yb-section-padding yb-contact-right">
+              <p class="uk-margin-medium-bottom uk-visible@m">
+                <img
+                  data-src="src/img/profile.png"
+                  width="500"
+                  height="500"
+                  data-uk-img
+                  alt=""
+                  class="uk-border-circle"
+                />
+              </p>
+              <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
+                <li class="uk-flex uk-flex-middle">
+                  <span
+                    data-uk-icon="mail"
+                    class="uk-flex-none uk-text-primary"
+                  ></span>
+                  <span>wenushka18273@gmail.com</span>
+                </li>
+                <li class="uk-flex uk-flex-middle">
+                  <span
+                    data-uk-icon="phone"
+                    class="uk-flex-none uk-text-primary"
+                  ></span>
+                  <span> +94771363694</span>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
+      </section>
+      <!-- end contact section -->
+    </main>
+    <!-- end main section -->
+    <!-- main footer -->
+    <footer class="yb-main-footer-wrapper">
+      <div class="waveHorizontals">
+        <div
+          id="waveHorizontal1"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave1.svg"
+        ></div>
+        <div
+          id="waveHorizontal2"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave2.svg"
+        ></div>
+        <div
+          id="waveHorizontal3"
+          class="waveHorizontal"
+          data-uk-img
+          data-src="src/img/bg/wave3.svg"
+        ></div>
       </div>
-    </div>
-  </footer><!-- end main footer -->
+      <a
+        href="#body-app"
+        class="uk-visible@s yb-totop yb-inner-link"
+        data-uk-totop
+      ></a>
+      <div class="yb-main-footer">
+        <div class="uk-container">
+          <div data-uk-grid class="uk-child-width-1-2@s">
+            <div class="uk-margin-remove uk-text-left@s">
+              &copy; 2021 Portfolio, by Wenushka Mallikarachchi.
+            </div>
+            <div class="uk-margin-remove uk-text-right@s">
+              <div class="yb-footer-social">
+                <a href="https://www.facebook.com/wenushka.mallikarachchi.9/"
+                  >Facebook</a
+                >
+                <a href="https://www.instagram.com/wenushka_donz/">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end main footer -->
 
-  <!-- js -->
-  <script src="src/app/js/plugins.min.js"></script>
-  <script src="src/app/js/app.js"></script>
-</body>
-
+    <!-- js -->
+    <script src="src/app/js/plugins.min.js"></script>
+    <script src="src/app/js/app.js"></script>
+  </body>
 </html>
