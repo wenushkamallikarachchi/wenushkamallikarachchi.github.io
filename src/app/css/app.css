@@ -246,6 +246,13 @@ html, body {
   letter-spacing: -4px;
 }
 
+@media (min-width: 375px) {
+  .yb-profile-desc h1{
+    font-size: 26px !important;
+    letter-spacing: -1px;
+  }
+}
+
 .yb-profile-desc h1.yb-gradient-text {
   background: -webkit-linear-gradient(45deg, #09009f, #00ff95 80%);
   -webkit-background-clip: text;
@@ -267,7 +274,9 @@ html, body {
   align-self: center;
   padding-bottom: 80px;
 }
-
+@media (min-width: 375px) {
+ 
+}
 .yb-myjob {
   font-size: 25px;
 }

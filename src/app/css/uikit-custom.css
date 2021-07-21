@@ -2573,11 +2573,18 @@ select.uk-form-width-xsmall {
 }
 
 /* Phone landscape and bigger */
+@media (min-width:375){
+  .uk-container {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
 @media (min-width: 640px) {
   .uk-container {
     padding-left: 30px;
     padding-right: 30px;
   }
+  
 }
 
 /* Tablet landscape and bigger */
@@ -8339,7 +8346,12 @@ ul.uk-nav-sub {
 .uk-text-bold {
   font-weight: bolder;
 }
-
+@media (min-width: 375px) {
+ 
+  .uk-text-bold{
+    font-size: 14px;
+  }
+}
 /* Transform modifier
  ========================================================================== */
 .uk-text-uppercase {
