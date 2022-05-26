@@ -1267,7 +1267,10 @@ html, body {
   text-transform: none;
   font-weight: 700;
 }
-
+.gowithBehanceBT{
+  background-color: #1E87F0 !important;
+  color: white !important;
+}
 .yb-full-height {
   transition: 0.3s;
   min-height: 100vh;
